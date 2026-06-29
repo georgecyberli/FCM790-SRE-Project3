@@ -133,7 +133,7 @@ Three RDS reboots were required. The first reboot completed silently with auto-r
 
 A complete blameless postmortem was written for Fault 1 — the most significant failure — following the SRE Workbook Appendix D template.
 
-**[View Full Postmortem (PDF)](./Postmortem_Cascading_Compute_and_Database_Failure.pdf)**
+**[View Full Postmortem (PDF)](./docs/Postmortem_Cascading_Compute_and_Database_Failure.pdf)**
 
 ### Postmortem Highlights
 
@@ -234,7 +234,8 @@ The 31-minute incident was largely driven not by the original fault, but by the 
 
 ## 📖 SRE Documentation
 
-- **[Full Blameless Postmortem (PDF)](./Postmortem_Cascading_Compute_and_Database_Failure.pdf):** Complete incident postmortem following the SRE Workbook Appendix D template, covering timeline, root cause analysis, detection analysis, response and recovery, action items, and lessons learned.
+- **[Full Blameless Postmortem (PDF)](./docs/Postmortem_Cascading_Compute_and_Database_Failure.pdf):** Complete incident postmortem following the SRE Workbook
+- **[Fault Injection & Recovery Log (PDF)](./docs/Fault_Injection_and_Recovery_Log.pdf):** Structured documentation of both fault injections covering fault descriptions, categories, hypotheses, injection timestamps, reversal plans, diagnostic steps, TTD and TTM measurements, and post-recovery health confirmation.
 
 
 
